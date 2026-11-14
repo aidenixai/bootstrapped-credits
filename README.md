@@ -88,7 +88,7 @@ NVIDIA Inception). We update the total only when credits land.
 
 1. On day one, NVIDIA Inception, Cloudflare and the free tiers.
 2. With the first real model load, AWS Activate through Inception and
-   DigitalOcean Hatch.
+   DigitalOcean Hatch (reopens in early 2027).
 3. When a credit is about to run out, OpenRouter (it has a 6-month clock),
    Together AI and Microsoft. Start Microsoft early, the ladder takes months.
 4. Once you have a landing page, PostHog and Google Ads.
