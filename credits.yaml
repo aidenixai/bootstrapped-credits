@@ -1,0 +1,295 @@
+# Source of truth. README tables are generated from this file: python scripts/build.py
+# Fields:
+#   name, url, category (models | servers | growth | free)
+#   amount: what a bootstrapped company gets (not the headline number)
+#   expires: when credits stop working
+#   claude / gpt / open_models: do the credits pay for them (yes / no / some / n/a)
+#   no_round: can a self-funded company get it (yes / no / unclear)
+#   we_got: what our team actually received (empty if we did not apply yet)
+#   notes, checked (YYYY-MM-DD)
+
+- name: AWS Activate (Founders)
+  url: https://aws.amazon.com/startups/credits
+  category: models
+  amount: "$1,000 direct; up to $10,000 total via NVIDIA Inception"
+  expires: "about 2 years"
+  claude: "yes (Bedrock)"
+  gpt: some
+  open_models: "yes"
+  no_round: "yes"
+  we_got: "$10,000 ($5,000 via Clerky, topped up to $10,000 via NVIDIA Inception)"
+  notes: "After 50% is spent, the next tier ($25,000) can be requested through Inception."
+  checked: 2026-11-12
+
+- name: OpenRouter Startup Program
+  url: https://openrouter.ai/startups
+  category: models
+  amount: "up to $3,000 + 12 months without fees"
+  expires: "6 months after activation"
+  claude: "yes"
+  gpt: "yes"
+  open_models: "yes"
+  no_round: "yes"
+  we_got: ""
+  notes: "Needs a partner referral (Mercury customers have one) and lifetime OpenRouter spend under $500. Apply the week you start a big run."
+  checked: 2026-11-14
+
+- name: OpenAI (Brex partner perk)
+  url: https://www.brex.com/support/brex-partner-perks
+  category: models
+  amount: "$2,500"
+  expires: "check in the Brex dashboard"
+  claude: "no"
+  gpt: "yes"
+  open_models: "no"
+  no_round: "yes"
+  we_got: "$2,500"
+  notes: "Visible after opening a Brex account. OpenAI's own startup credits are now for VC-backed companies only."
+  checked: 2026-11-08
+
+- name: Microsoft for Startups (no investor code)
+  url: https://www.microsoft.com/en-us/startups
+  category: models
+  amount: "$200, then $5,000 after business verification, then $25k / $50k / $150k"
+  expires: "90 days / 180 days, the $25k step lasts 2 years"
+  claude: "no (Claude in Foundry is billed via Marketplace)"
+  gpt: "yes"
+  open_models: "DeepSeek, Grok"
+  no_round: "yes"
+  we_got: ""
+  notes: "The ladder needs 5 / 7 / 10 Azure services used for 60 days in a row. Start early if you plan to climb."
+  checked: 2026-11-14
+
+- name: Google for Startups Cloud (Start tier)
+  url: https://cloud.google.com/startup
+  category: models
+  amount: "$2,000, plus $1,000 GenAI App Builder"
+  expires: "1 to 2 years"
+  claude: "no (Claude on Vertex is a Marketplace purchase)"
+  gpt: "no"
+  open_models: "Gemini"
+  no_round: "yes"
+  we_got: "$3,000"
+  notes: "The $100k-$350k tiers need a VC."
+  checked: 2026-10-19
+
+- name: DigitalOcean Hatch
+  url: https://www.digitalocean.com/hatch
+  category: models
+  amount: "up to $5,000"
+  expires: "12 months"
+  claude: "no"
+  gpt: "no"
+  open_models: "yes (DeepSeek, Qwen, GLM, Kimi)"
+  no_round: "yes"
+  we_got: "$5,000"
+  notes: "Also covers droplets, backups and managed databases."
+  checked: 2026-11-14
+
+- name: Together AI Startup Accelerator (Build)
+  url: https://www.together.ai/startup-accelerator
+  category: models
+  amount: "up to $15,000 + 3 hours with an engineer"
+  expires: "not published (third parties say 12 months)"
+  claude: "no"
+  gpt: "no"
+  open_models: "yes"
+  no_round: "unclear"
+  we_got: ""
+  notes: "Raised under $5M. Selection-based."
+  checked: 2026-11-14
+
+- name: Anthropic Claude for Startups
+  url: https://claude.com/programs/startups
+  category: models
+  amount: "$1,000 API + 1 year of Claude Team"
+  expires: "-"
+  claude: "yes (direct API only)"
+  gpt: "n/a"
+  open_models: "n/a"
+  no_round: "yes"
+  we_got: ""
+  notes: "Company 5 years old or less, no round required. Cohort was full in Nov 2026."
+  checked: 2026-11-08
+
+- name: Cloudflare for Startups (bootstrapped tier)
+  url: https://www.cloudflare.com/forstartups/
+  category: servers
+  amount: "$10,000"
+  expires: "1 year"
+  claude: "no"
+  gpt: "no"
+  open_models: "part usable on Workers AI"
+  no_round: "yes"
+  we_got: "$10,000"
+  notes: "Raised under $1M, live website, first application. R2, Workers, D1, Vectorize."
+  checked: 2026-11-14
+
+- name: OVHcloud Startup Program (START)
+  url: https://startup.ovhcloud.com/
+  category: servers
+  amount: "up to $12,000"
+  expires: "12 months"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "n/a"
+  no_round: "yes"
+  we_got: ""
+  notes: "A funding round is needed only for the SCALE tier."
+  checked: 2026-11-14
+
+- name: Oracle AI SMB Bundle
+  url: https://www.oracle.com/artificial-intelligence/smb-bundle/
+  category: servers
+  amount: "$12,000 per year, up to 3 years"
+  expires: "yearly"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "OCI Generative AI"
+  no_round: "yes"
+  we_got: ""
+  notes: "US private businesses only. One application per company."
+  checked: 2026-11-08
+
+- name: RunPod Startup Program (Starter)
+  url: https://runpod.io/startup-program
+  category: servers
+  amount: "$1,000"
+  expires: "12 months"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "self-hosted"
+  no_round: "yes"
+  we_got: ""
+  notes: "Raised under $1M, real GPU workload."
+  checked: 2026-11-08
+
+- name: bunny.net HopStart
+  url: https://bunny.net/
+  category: servers
+  amount: "up to $50,000"
+  expires: "1 year"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "n/a"
+  no_round: "yes"
+  we_got: ""
+  notes: "CDN and storage. Application review."
+  checked: 2026-11-14
+
+- name: NVIDIA Inception
+  url: https://www.nvidia.com/en-us/startups/
+  category: growth
+  amount: "free; opens AWS, Lambda, Crusoe, DeepInfra and Brev offers"
+  expires: "no expiry"
+  claude: "via AWS"
+  gpt: "n/a"
+  open_models: "via partners"
+  no_round: "yes"
+  we_got: "accepted in 1 day"
+  notes: "Company under 10 years, website, pitch deck. Member badge and startup directory listing."
+  checked: 2026-11-09
+
+- name: PostHog for Startups
+  url: https://posthog.com/startups
+  category: growth
+  amount: "$50,000"
+  expires: "12 months from application"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "n/a"
+  no_round: "yes"
+  we_got: ""
+  notes: "Clock starts at application. Apply the day you install analytics. Not usable on PostHog AI."
+  checked: 2026-11-14
+
+- name: Google Ads new advertiser offer
+  url: https://ads.google.com/
+  category: growth
+  amount: "matched credit up to $1,500"
+  expires: "60 days to spend, credit expires 60 days after it lands"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "n/a"
+  no_round: "yes"
+  we_got: ""
+  notes: "Not free money: you spend first ($500 gets $500, more gets up to $1,500). New ad accounts only."
+  checked: 2026-11-14
+
+- name: SendPulse startup grant
+  url: https://sendpulse.com/
+  category: growth
+  amount: "$5,000"
+  expires: "12 months"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "n/a"
+  no_round: "yes"
+  we_got: ""
+  notes: "Launched in the last 3 years. Opt-in email only, no cold lists."
+  checked: 2026-11-14
+
+- name: Groq
+  url: https://console.groq.com/
+  category: free
+  amount: "14,400 requests per day"
+  expires: "ongoing"
+  claude: "no"
+  gpt: "no"
+  open_models: "yes"
+  no_round: "yes"
+  we_got: ""
+  notes: "Free tier, no application."
+  checked: 2026-11-14
+
+- name: Google AI Studio
+  url: https://aistudio.google.com/
+  category: free
+  amount: "Gemini free tier"
+  expires: "ongoing"
+  claude: "no"
+  gpt: "no"
+  open_models: "Gemini"
+  no_round: "yes"
+  we_got: ""
+  notes: "Data may be used for training on the free tier."
+  checked: 2026-11-14
+
+- name: Voyage AI
+  url: https://docs.voyageai.com/docs/pricing
+  category: free
+  amount: "50M embedding tokens per month"
+  expires: "ongoing"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "embeddings"
+  no_round: "yes"
+  we_got: ""
+  notes: "Free tier, no application."
+  checked: 2026-11-14
+
+- name: Exa
+  url: https://exa.ai/pricing
+  category: free
+  amount: "$10 per month; startup grant up to $1,000"
+  expires: "monthly; grant expiry not published"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "web search API"
+  no_round: "yes"
+  we_got: ""
+  notes: "Web search for agents."
+  checked: 2026-11-14
+
+- name: Linkup
+  url: https://www.linkup.so/startups
+  category: free
+  amount: "$20 per month; startup program up to $5,000"
+  expires: "monthly; grant expiry not published"
+  claude: "n/a"
+  gpt: "n/a"
+  open_models: "web search API"
+  no_round: "yes"
+  we_got: ""
+  notes: "Web search for agents. Sign up with a work email."
+  checked: 2026-11-14

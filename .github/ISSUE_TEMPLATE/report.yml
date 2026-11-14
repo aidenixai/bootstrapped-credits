@@ -1,0 +1,47 @@
+name: Approved or rejected
+description: Tell others what happened when you applied. This is the most useful thing you can add.
+title: "[report] <program>: approved / rejected"
+labels: [report]
+body:
+  - type: input
+    id: program
+    attributes:
+      label: Program
+      placeholder: e.g. Microsoft for Startups
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options: [Approved, Rejected, No answer after 30 days]
+    validations:
+      required: true
+  - type: dropdown
+    id: funding
+    attributes:
+      label: Funding raised
+      options: ["None (bootstrapped)", "Under $100k", "$100k - $1M", "Over $1M"]
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Company country
+    validations:
+      required: true
+  - type: input
+    id: amount
+    attributes:
+      label: Amount received and expiry
+      placeholder: e.g. $5,000, expires in 12 months
+  - type: input
+    id: wait
+    attributes:
+      label: How long you waited
+      placeholder: e.g. 3 days
+  - type: textarea
+    id: notes
+    attributes:
+      label: What mattered
+      description: What they asked for, what worked, what you would do differently. No referral codes, please.
