@@ -37,14 +37,14 @@
 - name: OpenAI (Brex partner perk)
   url: https://www.brex.com/support/brex-partner-perks
   category: models
-  amount: "$2,500"
-  expires: "check in the Brex dashboard"
+  amount: "$1,000"
+  expires: "1 year"
   claude: "no"
   gpt: "yes"
   open_models: "no"
   no_round: "yes"
-  we_got: "$2,500"
-  notes: "Visible after opening a Brex account. OpenAI's own startup credits are now for VC-backed companies only."
+  we_got: "$2,500 (earlier, larger version of this offer)"
+  notes: "For Brex customers, listed on Brex's public perks page. OpenAI's own startup credits are now for VC-backed companies only."
   checked: 2026-11-08
 
 - name: Microsoft for Startups (no investor code)
