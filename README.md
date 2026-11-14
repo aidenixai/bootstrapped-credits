@@ -2,31 +2,32 @@
 
 **Startup credits you can get without VC.**
 
-We are a small self-funded data company. With $0 raised we got **$30,500** in
-credits: AWS $10,000, Cloudflare $10,000, DigitalOcean $5,000, Google Cloud
-$3,000, OpenAI $2,500. This repo shows exactly how, and what's worth applying for
-when all you have is a registered company, a live website and an email on your
-own domain.
+With $0 raised we got **$30,500** in credits. AWS gave $10,000, Cloudflare
+another $10,000, DigitalOcean $5,000, Google Cloud $3,000 and OpenAI $2,500.
+
+We are a small self-funded data company. Most credit lists show headline numbers
+($100k, $150k, $350k), and those are for funded startups. This repo is the other
+list: what's worth applying for when all you have is a registered company, a live
+website and an email on your own domain. Every row says what a bootstrapped
+company gets, how long it lasts and when we last checked it.
 
 Applied and waiting: Databricks (via AWS Activate), AWS next tier ($25,000 via
 NVIDIA Inception). We update the total only when credits land.
 
-Most credit lists show headline numbers ($100k, $150k, $350k). Those are for
-funded startups. Here every row is what a bootstrapped company gets, how long it
-lasts, and the date we last checked it.
-
 ## Five things we learned
 
-1. **Credits expire, so apply late.** Most clocks start at approval (6 to 24
-   months). Apply the week real load starts, not "just in case".
-2. **The big number is a ladder.** Microsoft's $150k is $200, then $5k, then
-   $25k / $50k / $150k for using 5 / 7 / 10 Azure services 60 days in a row.
-3. **Check which models the credits pay for.** Google and Microsoft credits do
-   not pay for Claude: it's billed through their marketplaces.
-4. **One door opens another.** NVIDIA Inception is free and took one day. Through
-   it AWS topped our credits up to $10,000.
-5. **Bank and incorporation portals hide good perks.** Brex, Mercury and Clerky
-   show partner offers after you open an account, the same for every customer.
+1. Credits expire. Most clocks start at approval and run 6 to 24 months, so we
+   apply the week real load starts.
+2. The big number is a ladder. Microsoft's $150k starts at $200, then becomes
+   $5k, and the rest unlocks only if you use 5 Azure services, then 7, then 10,
+   for 60 days in a row, so if you want it you start early because the ladder
+   takes months.
+3. Google and Microsoft credits don't pay for Claude. On both clouds it's billed
+   through the marketplace, and credits skip marketplace purchases.
+4. NVIDIA Inception is free, took one day, and AWS used it to top our credits up
+   to $10,000.
+5. Brex, Mercury and Clerky show partner offers once you open an account. Every
+   customer sees the same list.
 
 ## Credits for AI models
 
@@ -80,11 +81,12 @@ lasts, and the date we last checked it.
 
 ## Order we'd apply in, starting from zero
 
-1. **Day one:** NVIDIA Inception, Cloudflare, the free tiers.
-2. **First real model load:** AWS Activate (through Inception), DigitalOcean Hatch.
-3. **A credit is about to run out:** OpenRouter (6-month clock), Together AI,
-   Microsoft (start the 60-day ladder early).
-4. **You have a landing page:** PostHog, Google Ads.
+1. On day one, NVIDIA Inception, Cloudflare and the free tiers.
+2. With the first real model load, AWS Activate through Inception and
+   DigitalOcean Hatch.
+3. When a credit is about to run out, OpenRouter (it has a 6-month clock),
+   Together AI and Microsoft. Start Microsoft early, the ladder takes months.
+4. Once you have a landing page, PostHog and Google Ads.
 
 ## Not worth it without a round
 
@@ -100,8 +102,8 @@ unknown origin. Your prompts and data pass through someone you don't know.
 ## Applied? Tell us what happened
 
 [Open a report](../../issues/new?template=report.yml): program, approved or
-rejected, funding, country, how long you waited. Reports from bootstrapped
-founders are the one thing no other list has.
+rejected, funding, country, how long you waited. We'll add an "approved for
+bootstrapped" column once a few reports come in.
 
 ## Contributing
 
@@ -114,6 +116,6 @@ Machine-readable: [`credits.yaml`](credits.yaml).
 
 ---
 
-Maintained by [Aidenix](https://aidenix.com): verified data on people, companies
-and public records, and [Atlas](https://atlas.aidenix.com), a map of verified
-data sources.
+Maintained by Ilya and the [Aidenix](https://aidenix.com) team. We sell verified data on people,
+companies and public records, and build [Atlas](https://atlas.aidenix.com), a map
+of verified data sources.
