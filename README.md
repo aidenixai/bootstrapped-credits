@@ -8,6 +8,9 @@ $3,000, OpenAI $2,500. This repo shows exactly how, and what's worth applying fo
 when all you have is a registered company, a live website and an email on your
 own domain.
 
+Applied and waiting: Databricks (via AWS Activate), AWS next tier ($25,000 via
+NVIDIA Inception). We update the total only when credits land.
+
 Most credit lists show headline numbers ($100k, $150k, $350k). Those are for
 funded startups. Here every row is what a bootstrapped company gets, how long it
 lasts, and the date we last checked it.
