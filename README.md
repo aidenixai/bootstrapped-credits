@@ -2,13 +2,18 @@
 
 **Startup credits you can get without VC.**
 
+Cloud and AI companies give startups free credit to pay for their services, hoping you stay once it runs out. You apply, they put a balance on your account, and your bills come out of it. The big numbers in most lists go to startups with venture money. This list is for a company without investors, which is what "bootstrapped" means.
+
+Most of these programs don't ask for a US company. The ones that do say so in their row.
+
+The clock usually starts the day you're approved, and a year later the unused balance is gone. So apply right before you start paying for that service, not on day one.
+
 With $0 raised we got **$30,500** in credits. AWS gave $10,000, Cloudflare
 another $10,000, DigitalOcean $5,000, Google Cloud $3,000 and OpenAI $2,500.
 
-We are a small self-funded data company. Most credit lists show headline numbers
-($100k, $150k, $350k), and those are for funded startups. This repo is the other
-list: what's worth applying for when all you have is a registered company, a live
-website and an email on your own domain. Every row says what a bootstrapped
+We are a small self-funded data company. This is what's worth applying for when
+all you have is a registered company, a live website and an email on your own
+domain. Every row says what a bootstrapped
 company gets, how long it lasts and when we last checked it.
 
 Applied and waiting: Databricks (via AWS Activate), AWS next tier ($25,000 via
@@ -36,12 +41,12 @@ NVIDIA Inception). We update the total only when credits land.
 |---|---|---|---|---|---|---|---|
 | [AWS Activate (Founders)](https://aws.amazon.com/startups/credits) | $1,000 direct; up to $10,000 total via NVIDIA Inception | about 2 years | yes (Bedrock) | some | yes | $10,000 ($5,000 via Clerky, topped up to $10,000 via NVIDIA Inception) | 2026-11-12 |
 | [OpenRouter Startup Program](https://openrouter.ai/startups) | up to $3,000 + 12 months without fees | 6 months after activation | yes | yes | yes | - | 2026-11-14 |
-| [OpenAI (Brex partner perk)](https://www.brex.com/support/brex-partner-perks) | $1,000 | 1 year | no | yes | no | $2,500 (earlier, larger version of this offer) | 2026-11-08 |
+| [OpenAI (Brex partner perk, US companies only)](https://www.brex.com/support/brex-partner-perks) | $1,000 | 1 year | no | yes | no | $2,500 (earlier, larger version of this offer) | 2026-11-14 |
 | [Microsoft for Startups (no investor code)](https://www.microsoft.com/en-us/startups) | $200, then $5,000 after business verification, then $25k / $50k / $150k | 90 days / 180 days, the $25k step lasts 2 years | no (Claude in Foundry is billed via Marketplace) | yes | DeepSeek, Grok | - | 2026-11-14 |
 | [Google for Startups Cloud (Start tier)](https://cloud.google.com/startup) | $2,000, plus $1,000 GenAI App Builder | 1 to 2 years | no (Claude on Vertex is a Marketplace purchase) | no | Gemini | $3,000 | 2026-10-19 |
-| [DigitalOcean Hatch](https://www.digitalocean.com/hatch) | up to $5,000 | 12 months | no | no | yes (DeepSeek, Qwen, GLM, Kimi) | $5,000 | 2026-11-14 |
+| [DigitalOcean Hatch (paused until early 2027)](https://www.digitalocean.com/hatch) | up to $5,000 | 12 months | no | no | yes (DeepSeek, Qwen, GLM, Kimi) | $5,000 | 2026-11-14 |
 | [Together AI Startup Accelerator (Build)](https://www.together.ai/startup-accelerator) | up to $15,000 + 3 hours with an engineer | not published (third parties say 12 months) | no | no | yes | - | 2026-11-14 |
-| [Anthropic Claude for Startups](https://claude.com/programs/startups) | $1,000 API + 1 year of Claude Team | - | yes (direct API only) | n/a | n/a | - | 2026-11-08 |
+| [Anthropic Claude for Startups (cohort full)](https://claude.com/programs/startups) | $1,000 API + 1 year of Claude Team | - | yes (direct API only) | n/a | n/a | - | 2026-11-14 |
 <!-- models:end -->
 
 ## Servers and storage

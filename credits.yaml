@@ -34,7 +34,7 @@
   notes: "Needs a partner referral (Mercury customers have one) and lifetime OpenRouter spend under $500. Apply the week you start a big run."
   checked: 2026-11-14
 
-- name: OpenAI (Brex partner perk)
+- name: OpenAI (Brex partner perk, US companies only)
   url: https://www.brex.com/support/brex-partner-perks
   category: models
   amount: "$1,000"
@@ -44,8 +44,8 @@
   open_models: "no"
   no_round: "yes"
   we_got: "$2,500 (earlier, larger version of this offer)"
-  notes: "For Brex customers, listed on Brex's public perks page. OpenAI's own startup credits are now for VC-backed companies only."
-  checked: 2026-11-08
+  notes: "For Brex customers; Brex opens accounts only for companies registered in the US. OpenAI's own startup credits are now for VC-backed companies only."
+  checked: 2026-11-14
 
 - name: Microsoft for Startups (no investor code)
   url: https://www.microsoft.com/en-us/startups
@@ -73,7 +73,7 @@
   notes: "The $100k-$350k tiers need a VC."
   checked: 2026-10-19
 
-- name: DigitalOcean Hatch
+- name: DigitalOcean Hatch (paused until early 2027)
   url: https://www.digitalocean.com/hatch
   category: models
   amount: "up to $5,000"
@@ -99,7 +99,7 @@
   notes: "Raised under $5M. Selection-based. Not usable on reserved GPU clusters."
   checked: 2026-11-14
 
-- name: Anthropic Claude for Startups
+- name: Anthropic Claude for Startups (cohort full)
   url: https://claude.com/programs/startups
   category: models
   amount: "$1,000 API + 1 year of Claude Team"
@@ -109,8 +109,8 @@
   open_models: "n/a"
   no_round: "yes"
   we_got: ""
-  notes: "Company 5 years old or less, no round required. Cohort was full in Nov 2026."
-  checked: 2026-11-08
+  notes: "Company 5 years old or less, no round required. Not accepting new applications in Nov 2026."
+  checked: 2026-11-14
 
 - name: Cloudflare for Startups (bootstrapped tier)
   url: https://www.cloudflare.com/forstartups/
