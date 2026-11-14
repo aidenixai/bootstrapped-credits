@@ -116,6 +116,6 @@ Machine-readable: [`credits.yaml`](credits.yaml).
 
 ---
 
-Maintained by Ilya and the [Aidenix](https://aidenix.com) team. We sell verified data on people,
+Maintained by Ilia and the [Aidenix](https://aidenix.com) team. We sell verified data on people,
 companies and public records, and build [Atlas](https://atlas.aidenix.com), a map
 of verified data sources.
