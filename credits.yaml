@@ -96,7 +96,7 @@
   open_models: "yes"
   no_round: "unclear"
   we_got: ""
-  notes: "Raised under $5M. Selection-based."
+  notes: "Raised under $5M. Selection-based. Not usable on reserved GPU clusters."
   checked: 2026-11-14
 
 - name: Anthropic Claude for Startups
@@ -128,14 +128,14 @@
 - name: OVHcloud Startup Program (START)
   url: https://startup.ovhcloud.com/
   category: servers
-  amount: "up to $12,000"
+  amount: "EUR 10,000 (up to $12,000 on the US site)"
   expires: "12 months"
   claude: "n/a"
   gpt: "n/a"
   open_models: "n/a"
   no_round: "yes"
   we_got: ""
-  notes: "A funding round is needed only for the SCALE tier."
+  notes: "Needs a proof of concept or MVP. A round is required only for the Scale tier."
   checked: 2026-11-14
 
 - name: Oracle AI SMB Bundle
@@ -165,16 +165,16 @@
   checked: 2026-11-08
 
 - name: bunny.net HopStart
-  url: https://bunny.net/
+  url: https://bunny.net/HopStart/
   category: servers
-  amount: "up to $50,000"
+  amount: "$50,000 / $25,000 / $10,000 for the top 3"
   expires: "1 year"
   claude: "n/a"
   gpt: "n/a"
   open_models: "n/a"
   no_round: "yes"
   we_got: ""
-  notes: "CDN and storage. Application review."
+  notes: "A contest, not a grant: three winners per round. CDN and storage. Round 5 closes Nov 30, 2026."
   checked: 2026-11-14
 
 - name: NVIDIA Inception
@@ -271,7 +271,7 @@
 - name: Exa
   url: https://exa.ai/pricing
   category: free
-  amount: "$10 per month; startup grant up to $1,000"
+  amount: "$10 per month; startup grant up to $1,000 (ask via the pricing page)"
   expires: "monthly; grant expiry not published"
   claude: "n/a"
   gpt: "n/a"

@@ -50,10 +50,10 @@ NVIDIA Inception). We update the total only when credits land.
 | Program | Bootstrapped gets | Expires | We got | Notes | Checked |
 |---|---|---|---|---|---|
 | [Cloudflare for Startups (bootstrapped tier)](https://www.cloudflare.com/forstartups/) | $10,000 | 1 year | $10,000 | Raised under $1M, live website, first application. R2, Workers, D1, Vectorize. | 2026-11-14 |
-| [OVHcloud Startup Program (START)](https://startup.ovhcloud.com/) | up to $12,000 | 12 months | - | A funding round is needed only for the SCALE tier. | 2026-11-14 |
+| [OVHcloud Startup Program (START)](https://startup.ovhcloud.com/) | EUR 10,000 (up to $12,000 on the US site) | 12 months | - | Needs a proof of concept or MVP. A round is required only for the Scale tier. | 2026-11-14 |
 | [Oracle AI SMB Bundle](https://www.oracle.com/artificial-intelligence/smb-bundle/) | $12,000 per year, up to 3 years | yearly | - | US private businesses only. One application per company. | 2026-11-08 |
 | [RunPod Startup Program (Starter)](https://runpod.io/startup-program) | $1,000 | 12 months | - | Raised under $1M, real GPU workload. | 2026-11-08 |
-| [bunny.net HopStart](https://bunny.net/) | up to $50,000 | 1 year | - | CDN and storage. Application review. | 2026-11-14 |
+| [bunny.net HopStart](https://bunny.net/HopStart/) | $50,000 / $25,000 / $10,000 for the top 3 | 1 year | - | A contest, not a grant: three winners per round. CDN and storage. Round 5 closes Nov 30, 2026. | 2026-11-14 |
 <!-- servers:end -->
 
 ## Growth
@@ -75,7 +75,7 @@ NVIDIA Inception). We update the total only when credits land.
 | [Groq](https://console.groq.com/) | 14,400 requests per day | Free tier, no application. |
 | [Google AI Studio](https://aistudio.google.com/) | Gemini free tier | Data may be used for training on the free tier. |
 | [Voyage AI](https://docs.voyageai.com/docs/pricing) | 50M embedding tokens per month | Free tier, no application. |
-| [Exa](https://exa.ai/pricing) | $10 per month; startup grant up to $1,000 | Web search for agents. |
+| [Exa](https://exa.ai/pricing) | $10 per month; startup grant up to $1,000 (ask via the pricing page) | Web search for agents. |
 | [Linkup](https://www.linkup.so/startups) | $20 per month; startup program up to $5,000 | Web search for agents. Sign up with a work email. |
 <!-- free:end -->
 
