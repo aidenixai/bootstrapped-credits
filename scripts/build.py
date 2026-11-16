@@ -19,6 +19,8 @@ SECTIONS = {
 
 def cells(r, cat):
     name = f"[{r['name']}]({r['url']})"
+    if r.get("requires"):      # what you need before applying, e.g. a partner code
+        name += f" ({r['requires']})"
     got = r.get("we_got") or "-"
     if cat == "models":
         return [name, r["amount"], r["expires"], r["claude"], r["gpt"], r["open_models"], got, str(r["checked"])]

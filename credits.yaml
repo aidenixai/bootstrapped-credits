@@ -11,6 +11,7 @@
 - name: AWS Activate (Founders)
   url: https://aws.amazon.com/startups/credits
   category: models
+  requires: "above $1,000 needs a provider code; without an investor, Clerky perks and NVIDIA Inception give one"
   amount: "$1,000 direct; up to $10,000 total via NVIDIA Inception"
   expires: "about 2 years"
   claude: "yes (Bedrock)"
@@ -24,7 +25,8 @@
 - name: OpenRouter Startup Program
   url: https://openrouter.ai/startups
   category: models
-  amount: "up to $3,000 + 12 months without fees"
+  requires: "needs a partner referral key; without an investor, the key is in the Mercury perks"
+  amount: "up to $3,000 + 12 months without fees; Brex and Mercury also give a separate $1,000 OpenRouter perk"
   expires: "6 months after activation"
   claude: "yes"
   gpt: "yes"
